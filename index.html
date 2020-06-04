@@ -9,6 +9,57 @@
   </head>
 
   <body>
+    <div class="container">
+      <div>
+        <form id="quiz">
+          <div class="form-group">
+            <label for="gender">Select your preferred gender:</label>
+            <select class= "form-control" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="none">No preference</option>
+            </select>
+          </div>
 
+          <div class="form-group">
+            <label for="age-range">Select your preferred age range:</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="age-range" value="range1" checked>
+                18-30
+              </label>
+            </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="age-range" value="range2">
+                30+
+              </label>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+      <div id="output">
+        <h3>Your celebrity match is:</h3>
+        <div id="ron-weasley">
+          <h2>Ron Weasley!</h2>
+          <img src=https://i.pinimg.com/236x/f3/e4/4a/f3e44aa13286353ed8cb7955cb3db7a7--ron-weasley-harry-potter-.jpg alt="picture of Ron Weasley" />
+        </div>
+        <div id="bj-novak">
+          <h2>BJ Novak!</h2>
+          <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.hellogiggles.com%2Fuploads%2F2016%2F05%2F31000939%2Fbj-novak-mindy-kaling.jpg" alt="picture of BJ Novak" />
+        </div>
+        <div id="kirsten-gillibrand">
+          <h2>Kirsten Gillibrand!</h2>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Kirsten_Gillibrand%2C_official_photo%2C_116th_Congress.jpg" alt="picture of Kirsten Gillibrand" />
+        </div>
+        <div id="princess-leia">
+          <h2>Princess Leia!</h2>
+          <img src="https://imgix.bustle.com/rehost/2016/9/13/981f4b8c-89da-4358-a564-f802044644ec.jpg?w=970&h=546&fit=crop&crop=faces&auto=format%2Ccompress&cs=srgb&q=70" alt="picture of Princess Leia" />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
